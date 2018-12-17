@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Android-TD5-EX3</string>
+    <string name="app_name">testOrthographe</string>
+    
+    <string name="selecExplication">Dans la liste ci-dessous, séléctionnez les mots que vous jugez correctement écrits.</string>
+    <string name="selecBtnRAZ">Réinitialiser</string>
+    <string name="selecBtnValide">Valider</string>
+    <string name="selecBtnAnnul">Annuler</string>
+    
+    
+    <string name="corrExplication">Voici la liste des mots que vous pensez étre corrects.</string>
+    <string name="corrtxtListMot">Cliquez sur Envoyer pour soumettre votre liste.</string>
+    <string name="corrBtnEnvoyer">Envoyer</string>
+    <string name="corrBtnVider">Vider</string>
+    <string name="corrMsgErr">Des erreurts ont été commises ...</string>
+    <string name="corrMsgErrIncorrect"> mot incorrect a été mal classé !</string>
+    <string name="corrMsgErrCorrect">mot correct n\'a pas été trouvé !</string>
+    <string name="corrMsgFelicitation">Félicitation, toutes vos réponses sont justes !</string>
+    
 </resources>
