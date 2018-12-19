@@ -11,6 +11,49 @@
         android:id="@+id/Correction_onglet"
         android:text="@string/selecExplication"/>
 
+    <Spinner
+        android:id="@+id/listCorrect"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    
+    <View
+        style="@style/view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marge"
+        android:gravity="center">
+        
+        <Button
+            style="@style/button"
+            android:id="@+id/selecBtnRAZ"
+            android:text="@string/selecBtnRAZ" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/selecBtnValide"
+            android:text="@string/selecBtnValide" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/selecBtnAnnul"
+            android:text="@string/selecBtnAnnul" />
+        
+    </LinearLayout>
+
+    <View
+        style="@style/view" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
 
 
 </LinearLayout>

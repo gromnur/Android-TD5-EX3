@@ -2,10 +2,44 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:id="@+id/Correction_onglet"
+    android:id="@+id/correction_onglet"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        style="@style/textView"
+        android:text="@string/corrExplication"/>
+
+    <Spinner
+        android:id="@+id/listCorrect"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        style="@style/textView"
+        android:text="@string/corrtxtListMot" />
+
+    <view
+        style="@style/view" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            style="@style/button"
+            android:id="@+id/corrBtnEnvoyer"
+            android:text="@string/corrBtnEnvoyer"/>
+
+        <Button
+            style="@style/button"
+            android:id="@+id/corrBtnVider"
+            android:text="@string/corrBtnVider"/>
+
+    </LinearLayout>
 
 
 </LinearLayout>
