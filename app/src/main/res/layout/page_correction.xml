@@ -37,6 +37,7 @@
         <Button
             style="@style/button"
             android:id="@+id/corrBtnVider"
+            android:onClick="Annuler"
             android:text="@string/corrBtnVider"/>
 
     </LinearLayout>

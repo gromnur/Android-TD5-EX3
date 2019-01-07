@@ -10,12 +10,6 @@
         style="@style/textView"
         android:id="@+id/Correction_onglet"
         android:text="@string/selecExplication"/>
-
-    <Spinner
-        android:id="@+id/listCorrect"
-        android:layout_gravity="center"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content" />
     
     <View
         style="@style/view" />
@@ -29,16 +23,19 @@
         <Button
             style="@style/button"
             android:id="@+id/selecBtnRAZ"
+            android:onClick="Reinitiliser"
             android:text="@string/selecBtnRAZ" />
 
         <Button
             style="@style/button"
             android:id="@+id/selecBtnValide"
+            android:onClick="Valider"
             android:text="@string/selecBtnValide" />
 
         <Button
             style="@style/button"
             android:id="@+id/selecBtnAnnul"
+            android:onClick="Annuler"
             android:text="@string/selecBtnAnnul" />
         
     </LinearLayout>
@@ -47,6 +44,7 @@
         style="@style/view" />
 
     <ListView
+        android:choiceMode="multipleChoice"
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
