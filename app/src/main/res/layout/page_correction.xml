@@ -32,6 +32,7 @@
         <Button
             style="@style/button"
             android:id="@+id/corrBtnEnvoyer"
+            android:onClick="Envoyer"
             android:text="@string/corrBtnEnvoyer"/>
 
         <Button
@@ -42,5 +43,31 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/txtPhraseResultat"
+        android:text=""
+        style="@style/textView"/>
+
+    <TextView
+        android:id="@+id/txtMotIncorrectMalClasse"
+        android:text=""
+        style="@style/textView"/>
+
+    <Spinner
+        android:id="@+id/listMotMalClasse"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txtMotCorrectPasTrouve"
+        android:text=""
+        style="@style/textView"/>
+
+    <Spinner
+        android:id="@+id/listMotNonTrouve"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
 </LinearLayout>
